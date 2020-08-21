@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/deleteTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you sure?"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/noButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deleteTextview"
+                android:layout_marginTop="19dp"
+                android:background="@android:color/holo_purple"
+                android:gravity="center"
+                android:text="No"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/yesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deleteTextview"
+                android:layout_marginStart="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="19dp"
+                android:layout_toEndOf="@+id/noButton"
+                android:background="@android:color/holo_purple"
+                android:text="Yes"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>>
+    </androidx.cardview.widget.CardView>>
+</LinearLayout>
